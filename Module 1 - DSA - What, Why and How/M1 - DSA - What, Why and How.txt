@@ -1,0 +1,54 @@
+Why is DSA Important ?
+
+DSA Stands for Data Structures and Algorithms. Data Structures means the way of arranging Data in the Main memory (RAM).
+
+Algorithm means the sequence of steps to solve a problem.
+
+If we wanted to sort am array then each algorithm for sorting may require different times of CPU or requires different number of CPU cycles. 
+
+When the algorithms are inefficient, then the queries given by the user will be processed by our algorithm and it'll take more time to respond. 
+We may increase the hardware for processing, but it'll increase our cost and also if the dataset if large enough and our algorithm is so inefficient, then increasing the Hardware power won't gonna help us. 
+For ex, it'll take exponential time in terms of input.
+
+
+1. It will make us a better software developer
+2. It will helps us getting a job 
+3. It will help us winning the sport of competitive coding
+
+
+Roadmap to learn DSA:
+
+Learning a programming language:
+1.C++
+2.Java
+3.Python
+4.JavaScript
+
+First three is preferred when we are a student and programming in JS is preferred for web developers.
+
+Advantage of C++:
+1. very fast as it only compiles the program
+
+Disadvantage of C++:
+1. It has call by value which tends to copy original data so many times. It leads to memory cost high.
+2. Here there are two ways for call by reference. One reference, Second pointeres.
+
+Java:
+1. All non primitive data types like structures, objects are always passed by reference
+
+Disadvantages of Java:
+It goes through an intermediate language and interpretation happens. So it'll be slow when compared to C++.
+
+If we do if(a=b) then a will be assigned to b in C++ and as it a nonzero value, it'll be considered as true.
+Whereas Java will through us the error at there. 
+
+If one enjoy writing clean code as well as patient programmer, then we may go for Java.
+
+
+Libraries:
+C++ has STL (Standard Template Libraries) whereas
+Java has Collections.
+
+As well as Python also has Collections in the language itself and JavaScript also has some inbuilt functions for implementing DSA and it also has its own collections to do those things.
+
+The probability of solving a new problem never becomes 1. There are oceans of problem in the field of DSA.

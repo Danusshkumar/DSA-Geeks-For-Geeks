@@ -1,0 +1,2 @@
+Math.pow() and some math related function always returns double value.
+Don't forget to type cast the same with your own choice data type

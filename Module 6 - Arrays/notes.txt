@@ -1,0 +1,21 @@
+It's always recommended to use dynamically sized arrays in all our favourite languages.
+On dynamic sized arrays, they may have some algorithms to maintiain this dynamic property.
+The name doesn't mean that everytime we add an element, the array resizes. If we have 100 element array,
+on adding 101st element, the new array will be created double 
+(may be triple or something else) the size of initial array and the 100 elements are getting copied from
+previous array. These will be the process everytime the array becomes full. 
+
+Accessing elements in the dynamic sized array also bigO(1).
+
+
+Arrays in Java:
+
+
+Remove duplicates from a sorted array:
+ To remove duplicates, we have to create one temporary array of size n. Because in the worst
+ case, there all element will be distinct. First we have to copy the first element and increment the 
+ pointer to 1. traversing the array ( array is sorted ) and checking whether the current element and lastly
+ added temporary array element is distinct. If it is so, then we will add this element and increment the
+ pointer (duplicates will be consecutive as the array is sorted).
+
+ After completion, we will copy all the element to the original array ( run the loop pointer times).

@@ -1,0 +1,69 @@
+Analysis of Algorithms:
+Time taken by the program to give solution depends on
+
+1. Processing power of the machine
+2. Programming Languages
+
+Even if we are running in same power machine and in same programming language, due to some background loads and runs. 
+
+One program may efficient at certain input whereas another program may be efficient at certain input. So inorder to find which one is efficient, there is a theoretical and mathematical way of analysing an algorithm. It's called asymptotic analysis.
+
+Asymtotic Analysis:
+ The idea is to measure order of growth.
+ Does not depend upon machine, programming language, etc.
+ No need to implement, we can analyse the algorithm. 
+ Does not depends upon the test cases. When we talk about worst cases, that are not test cases specific, they are algorithm specific. Bcz, every algorithm will have different types of worst cases.
+
+ // for algorithm 1 return n(n+1)/2; ==> time taken : C1;
+// single for loop ==> time taken : C2n + C3;
+// nested loop ==> time taken : C4n2 + C5n + C6;
+
+Constants are always have a value that depends on machine loads, programming language we implement and some other factors. 
+
+
+ Order of Growth: 
+
+ When we analyse an algorithm, we always take the large, large value of N. that's why when expressing mathematically, it's said that n tends to infinity.
+
+ if eqn 1 ==> n+1
+ eqn 2 ==> 1000 
+ even though the eqn 1 is efficient when it comes that input less than 999, asymptotic analysis always assume the n tends to be infinity. This is how this asymptotic analysis works.
+
+ Simple steps to find the order of growth:
+ Ignore the lower order terms
+ Ignore the leading term constant
+
+2n^2 + n + 6 ==> n^2 ( quadratic )
+100n + 3 ==> n ( linear )
+
+The one in which algorithm have greater order of growth will take more time when compared to other algorithm. So these algorithms are considered to be inefficient when compared to the another one which is compared.  
+
+
+Average, Best and Worst cases of algorithms :
+We are seperating the cases into three types ( cases here may refers to user input) 
+
+Best case:
+It's the case where order of input is very low. This best case is also not used in majority of times. 
+when we say that when it is best case, my software will give your result in 0.0001 ms but in worst case, I don't know, it may take 4 or 5 days. 
+
+Average case: ( It's like finding average of thousand number):
+If a function is working in one way when input is even and will work in another complex way when input is odd, then in average case we may assume that the input the user going to give may be likely same number of odd and even numbers. 
+These cases are not used as it requires some assumption and in some cases, it also requires the exact input that the user going to give. 
+
+Worst case: It's the case maximum of times used and taken into account. Worst case is the case where the order of growth is maximum.
+
+The case is when you have different time taken for different inputs, here is where the best, worst and average case occurs.
+There will be no best, worst and average case for algorithm where we can traverse an array for finding the sum of elements in array. 
+But there will be best, worst and average case for algorithm where we can find the specified element from array. 
+
+Simply,
+best case ==> Bogus
+average case ==> inpractical in many scenarios
+worst case ==> will be used in time complexity
+
+Asymtotic notations:
+
+There are three asymptotic notation there to represent the order of growth.
+Big O : Exact or upper
+Theta : Exact  ( we are using this till now)
+Omega : Exact or lower
